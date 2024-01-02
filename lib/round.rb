@@ -1,12 +1,19 @@
 class Round 
-  attr_reader 
+  attr_reader :deck, :turns
 
-  # def initialize()
-  #   text
+  def initialize(deck)
+    @deck = deck
+    @turns = []
+  end
+
+  def current_card 
+      @deck.cards.first
+  end
+
+  # def take_turn
+  #   text 
   # end
 
-  # def method
-  #   text
-  # end
+
 
 end

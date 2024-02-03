@@ -1,4 +1,4 @@
-class Round 
+class Round
   attr_reader :deck, :turns
 
   def initialize(deck)
@@ -6,12 +6,14 @@ class Round
     @turns = []
   end
 
-  def current_card 
+  def current_card
       @deck.cards.first
   end
 
-  # def take_turn
-  #   text 
+  # def take_turn(guess)
+  # Create a turn object with guess
+  # Card should be current card
+  #   text
   # end
 
 
